@@ -27,7 +27,7 @@ We used different techniques to make this app work, I will sum up the most impor
 * CSS, to make everything look beautiful and add some smooth animations
 * Vanilla Javascript, to add some cool functions like the map and your geolocation
 * Gulp, to minify our files
-* DigitalOcean
+* DigitalOcean for deploying
 
 ## Code structure
 An explanation for some of the files and the way it was build.
