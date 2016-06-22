@@ -94,7 +94,7 @@ Where the app meets the courses:
 
 ###Performance Matters
 * Semantic HTML & CSS
-* Gulp, minified js en css files for better loadtimes
+* Gulp, minified js and css files for better loadtimes
 * Optimized http requests: Javascript files are only loaded on the pages that use them
 
 ##The Wordpress Data API
@@ -118,4 +118,41 @@ All the data requests and data manipulation can be found in the index.js file in
 
 ##My share in this code
 To make sure everyone had a fair share in the project and enough to do we made an trello board to divide the tasks. A very small look into our trello board:
+
 ![trello board](http://i.imgur.com/NtzukoG.jpg?1)
+
+What did I do:
+**First week:**
+* Make sketches and think about what the app should look like
+* Started setting up the Node express server (and also a lot of research because I had never done this before)
+* Routing in the server
+* Templating research --> first we chose mustache and then we decided to set up a server so we changed to handlebars
+
+**Second week:**
+* Getting data in the router from a local file and load the data in the templates
+* Figuring out how to set up a detail page for an event (load the right data with the right detail page)
+* Making a popup from the detail page when Javascript is turned on (so you won't have to go to a new page)
+* Deployed the app for testing and showing it to the client
+* Together: think about some cool features for the app
+
+**Third week:**
+* Restructure all the JS code because we loaded every file on every page, which caused a lot of errors. While doing this I checked the code for errors and added some feature detects like the one in the helpers file for local storage and addeventlistener.
+* Wrote the helpers file
+* Wrote the logic for the day 1 day 2 check, if day 1 is already over show events for day 2. (day1/day2 filter)
+* Check the new data API we got
+
+**Fourth week:**
+* Implementing the new data files, filter the data, combine the data etc.
+* Update site from http to https
+* Filter Music/Food/Innovation -> show the right data
+* The timetoEvent JS -> calculate the time to event, show it above the events
+* Load the news into the news section on the menu page
+* Show which day on my route
+* Feature detect geolocation: any error: remove BikeDist and show error popup
+* Bug fixes
+
+**Fifth week:**
+* Last bug fixes
+* Discover page (flash events when you press the discover button)
+
+This is pretty much a summary of things I've done, there are some more small parts but you can pretty much see in the code what I wrote by this list. There are some things we did together as a group. Together we made this awesome beta N-festival app, check it out and enjoy!
