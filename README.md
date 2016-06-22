@@ -18,3 +18,14 @@ This web app is the app for during the festival, where people can see the events
 * The discover page, where people who don't know the festival can discover events so they get a better view of what the festival has in store
 * The locations of the events and the time it takes to get there, you can find this on the location page but also on the program page in the events and on the events detail page
 * The ability to save events you like, to see them on your own event page with locations included in a map above the events.
+* And last but not least for the people who organize N-festival: the ability to add events, locations, curators and news items at any moment to keep the program up to date.
+
+##Techniques
+We used different techniques to make this app work, I will sum up the most important once here.
+* Express, the web framework for Node.js, to keep the pages and data running so users can always see the program.
+* HTML5 with handlebars, to set up the pages and render the data
+* CSS, to make everything look beautiful and add some smooth animations
+* Vanilla Javascript, to add some cool functions like the map and your geolocation
+* Gulp, to minify our files
+
+## Code structure
