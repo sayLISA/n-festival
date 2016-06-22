@@ -96,3 +96,23 @@ Where the app meets the courses:
 * Semantic HTML & CSS
 * Gulp, minified js en css files for better loadtimes
 * Optimized http requests: Javascript files are only loaded on the pages that use them
+
+##The Wordpress Data API
+To recive data in our app we used an external wordpress data API, set up by one of the developers from the van Lennep team. All the data for the templates is loaded server side, and combined to get better templates because all the data is served in seperate files. The venue data is also rendered client side, to render the venue locations on the map. Data we're getting from the API:
+* Events
+* Venues
+* Posts (news items)
+* Curators
+* Tags
+* Categories
+
+An example of the event data: http://n-festival.werk.vanjim.nl/wp-json/wp/v2/events
+As you can see the categories are loaded like this:
+```
+categories: [
+8
+]
+```
+so we had to match the id's in the events data to the id's in the categories data file(http://n-festival.werk.vanjim.nl/wp-json/wp/v2/categories):
+
+All the data requests and data manipulation can be found in the index.js file in the routes folder.
