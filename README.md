@@ -29,3 +29,27 @@ We used different techniques to make this app work, I will sum up the most impor
 * Gulp, to minify our files
 
 ## Code structure
+An explanation for some of the files and the way it was build.
+
+```
+app.js                  //This is the file where everything starts
+gulpfile.js
+package.json
+/bin
+/node_modules           //The modules used for this project
+/public                 //The public folder contains all the static files like css, js, images that the app uses
+  /dist                 //The dist folder contains the minified and prefixed css and js
+    /css
+    /js
+    /lib
+  /font                 //The fonts used on the site
+  /img                  //The images used on the site
+  /src                  //The src folder contains the files we worked in, not yet minified
+    /css
+    /js                 //Client-side JS
+    /lib
+/routes
+  index.js              //This file contains all the routes for the site, routes matching the templates in the views folder
+/views                  //All the templates for the site, in handlebars
+  /partials             //Containing small pieces of html used in different templates
+```
