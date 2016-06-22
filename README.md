@@ -122,6 +122,7 @@ To make sure everyone had a fair share in the project and enough to do we made a
 ![trello board](http://i.imgur.com/NtzukoG.jpg?1)
 
 What did I do:
+
 **First week:**
 * Make sketches and think about what the app should look like
 * Started setting up the Node express server (and also a lot of research because I had never done this before)
