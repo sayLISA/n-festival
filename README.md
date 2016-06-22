@@ -106,8 +106,7 @@ To recive data in our app we used an external wordpress data API, set up by one 
 * Tags
 * Categories
 
-An example of the event data: http://n-festival.werk.vanjim.nl/wp-json/wp/v2/events
-As you can see the categories are loaded like this:
+An example of the event data: http://n-festival.werk.vanjim.nl/wp-json/wp/v2/events. As you can see the categories are loaded like this:
 ```
 categories: [
 8
@@ -116,3 +115,7 @@ categories: [
 so we had to match the id's in the events data to the id's in the categories data file(http://n-festival.werk.vanjim.nl/wp-json/wp/v2/categories):
 
 All the data requests and data manipulation can be found in the index.js file in the routes folder.
+
+##My share in this code
+To make sure everyone had a fair share in the project and enough to do we made an trello board to divide the tasks. A very small look into our trello board:
+![trello board](http://i.imgur.com/NtzukoG.jpg?1)
