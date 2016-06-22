@@ -58,11 +58,15 @@ package.json
 ##Run the app
 To run the code on your own computer you need to clone it to your computer. Open your terminal and go to the folder that contains the repository, then first install the node modules:
 
-```npm install```
+```
+npm install
+```
 
 After that you need to run the app with:
 
-```nodemon app.js```
+```
+nodemon app.js
+```
 
 The app wil run on port 3000.
 
