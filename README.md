@@ -1,6 +1,6 @@
 # N-Festival - Beta version
 
-> **:bangbang:Important: this is not the original repository we worked in, you can find it here: https://github.com/tijsluitse/n-festival. You can find all the issues and commits in the original repository. I copied it to mine for school to review the code & this readme file.**
+> **:bangbang: This repository is forked from: https://github.com/tijsluitse/n-festival where we worked in during this project, to find the most recent changes look in this repository. I forked the last version for school to review the code and my readme file.**
 
 >**Contributors:**
 * Tijs Luitse - https://github.com/tijsluitse
