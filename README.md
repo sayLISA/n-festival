@@ -54,3 +54,14 @@ package.json
 /views                  //All the templates for the site, in handlebars
   /partials             //Containing small pieces of html used in different templates
 ```
+
+##Run the app
+To run the code on your own computer you need to clone it to your computer. Open your terminal and go to the folder that contains the repository, then first install the node modules:
+
+`npm install`
+
+After that you need to run the app with:
+
+`nodemon app.js`
+
+The 
