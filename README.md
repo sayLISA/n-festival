@@ -21,7 +21,7 @@ This web app is the app for during the festival, where people can see the events
 * And last but not least for the people who organize N-festival: the ability to add events, locations, curators and news items at any moment to keep the program up to date.
 
 ##Techniques
-We used different techniques to make this app work, I will sum up the most important once here.
+We used different techniques to make this app work, I will sum up the most important ones here.
 * Express, the web framework for Node.js, to keep the pages and data running so users can always see the program.
 * HTML5 with handlebars, to set up the pages and render the data
 * CSS, to make everything look beautiful and add some smooth animations
