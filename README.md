@@ -6,3 +6,15 @@
 * Tijs Luitse - https://github.com/tijsluitse
 * Linda van Dijk - https://github.com/linda2912
 * Lisa Klein - https://github.com/sayLISA
+
+##Live version
+https://nfest.lisaklein.nl/
+
+##Concept
+I did this project for the minor Everything Web, we had to choose a project to work for a client to show what we've learned during the minor in the courses we took. We made the N-festival web app in co-operation with the design studio van Lennep (http://www.vanlennep.eu), who made the corporate identity for the web app. N-festival is a new two day festival in the Netherlands with an annual exhange of the avant-garde in the field of music, food and innovation from New York and Amsterdam (http://www.n-festival.com).
+
+This web app is the app for during the festival, where people can see the events and locations that are on the line up. The most important features are:
+* The program page, where people can see a list of events ordered on time (past events, now, coming) and filter on day and theme (music, food, innovation)
+* The discover page, where people who don't know the festival can discover events so they get a better view of what the festival has in store
+* The locations of the events and the time it takes to get there, you can find this on the location page but also on the program page in the events and on the events detail page
+* The ability to save events you like, to see them on your own event page with locations included in a map above the events.
