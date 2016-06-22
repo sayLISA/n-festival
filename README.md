@@ -70,19 +70,23 @@ The app wil run on port 3000.
 Where the app meets the courses:
 
 ###Web App From Scratch
-* Object oriented programming, we structured files in different modules and used programmed following the OOP way.
-* We got data from an wordpress API, combined data we needed, filtered data on time and showed the data in the app.
+* Object oriented programming, we structured files in different modules and used programmed following the OOP way
+* We got data from an wordpress API, combined data we needed, filtered data on time and showed the data in the app
 * Templating
 
 ###CSS To The Rescue
 * Semantic CSS
-* PE, site is still available and working without css, we online hide things with javascript.
+* CSS fallbacks for viewheight, viewwidth etc.
+* PE, site is still available and working without css, we online hide things with javascript
 * Flexbox
 * Prefixes for all browsers
 
 ###Browser Technologies
+* Semantic HTML
+* CSS fallbacks for viewheight, viewwidth etc.
 * Progressive Enhanchement, feature detects for geolocation, localstorage, helpers for addEventListeners.
-* Core functionalities are still available for people without javascript, css and other disabilities because of the node server.
+* Everything is accessible through the tab key
+* Core functionalities are still available for people without javascript, css and other disabilities because of the node server
 * Enhanchement for people with fancy browsers: animations, google maps, geolocation.
 
 ###Performance Matters
