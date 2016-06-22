@@ -71,13 +71,16 @@ Where the app meets the courses:
 
 ###Web App From Scratch
 * Object oriented programming, we structured files in different modules and used programmed following the OOP way
+* IIFE, Immediately- Invoked Function Expressions
+* Javascript interactions, smooth transitions: about page to the menu scroll
 * We got data from an wordpress API, combined data we needed, filtered data on time and showed the data in the app
 * Templating
 
 ###CSS To The Rescue
 * Semantic CSS
+* :target selectors
 * CSS fallbacks for viewheight, viewwidth etc.
-* PE, site is still available and working without css, we online hide things with javascript
+* PE, app is still available and working without css, we online hide things with javascript
 * Flexbox
 * Prefixes for all browsers
 
@@ -92,4 +95,4 @@ Where the app meets the courses:
 ###Performance Matters
 * Semantic HTML & CSS
 * Gulp, minified js en css files for better loadtimes
-* Javascript files loaded only on pages that use the code in them
+* Optimized http requests: Javascript files are only loaded on the pages that use them
