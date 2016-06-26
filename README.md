@@ -58,7 +58,7 @@ In the routes folder there are two important things happening.
 
 **Data structure**
 
-We use an external API to get the festival data and render it in our templates (more about it [here](#Data-API)[Wordpress API][here]). In the index.js file the data is loaded like this:
+We use an external API to get the festival data and render it in our templates (more about it [here](##Data-API)[Wordpress API][here]). In the index.js file the data is loaded like this:
 
 ```
 var data; 
