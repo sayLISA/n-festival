@@ -58,7 +58,7 @@ In the routes folder there are two important things happening.
 
 **Data structure**
 
-We use an external API to get the festival data and render it in our templates (more about it [here](#wordpress-api)[Wordpress API][here]). In the index.js file the data is loaded like this:
+We use an external API to get the festival data and render it in our templates (more about it [here](#Data-API)[Wordpress API][here]). In the index.js file the data is loaded like this:
 
 ```
 var data; 
@@ -150,7 +150,7 @@ for autoprefixing and minifying the css files
 
 To add gulp tasks simply write them in the `gulpfile.js`
 
-##The Data API
+##Data-API
 To recive data in our app we used an external Wordpress data API, set up by one of the developers from the van Lennep team. All the data for the templates is loaded server side, and combined to get better templates because all the data is served in seperate files. The venue data is also rendered client side, to render the venue locations on the map. Data we're getting from the API:
 
 * Events
