@@ -58,7 +58,7 @@ In the routes folder there are two important things happening.
 
 **Data structure**
 
-We use an external API to get the festival data and render it in our templates (more about it [here](##Data-API)[Wordpress API][here]). In the index.js file the data is loaded like this:
+We use an external API to get the festival data and render it in our templates (more about it [here](#data-api)). In the index.js file the data is loaded like this:
 
 ```
 var data; 
@@ -104,7 +104,7 @@ In the views folder you can find the templates, written with Handlebars. We have
 ```
 
 ###Public folder
-In the public folder you can find the static files we use: images, fonts, css and javascripts. The `src` folder is the folder to work in, the links go to the `dist` folder, the files in here are optimized and minified with [Gulp][Gulp].
+In the public folder you can find the static files we use: images, fonts, css and javascripts. The `src` folder is the folder to work in, the links go to the `dist` folder, the files in here are optimized and minified with [Gulp](#gulp).
 
 **Javascripts**
 
